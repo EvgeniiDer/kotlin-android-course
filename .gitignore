@@ -1,0 +1,26 @@
+build/
+app/build/
+
+# Локальные настройки твоего компьютера (пути к SDK)
+# Если это закоммитить, проект не соберется у другого человека
+local.properties
+
+# Кэш системы сборки Gradle
+.gradle/
+
+# Настройки Android Studio (IDE)
+.idea/workspace.xml
+.idea/libraries
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Файлы эмулятора и логи
+captures/
+*.iml
+.externalNativeBuild
+.cxx/
+
+# Скомпилированные приложения
+*.apk
+*.aab
